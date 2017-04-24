@@ -18,7 +18,7 @@
     a.trigger('getTodayData', data);
 
 
-## 解绑
+## 解绑方式
 
     // Example 1 - off with a token
     var token = EventTarget.on('mytopic', myFunc);
