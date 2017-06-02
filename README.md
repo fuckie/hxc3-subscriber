@@ -1,9 +1,10 @@
 # hxc3-subscriber
----
+
+订阅与发布
 
 
 ## Install
-    
+
 [![hxc3-subscriber](https://nodei.co/npm/hxc3-subscriber.png)](https://npmjs.org/package/hxc3-subscriber)
 
 ## Usage
@@ -20,6 +21,7 @@ a.on('getTodayData', function(data){ ...  });
 // publish
 a.trigger('getTodayData', 'hello world');
 ```
+
 ### support one level namespace(支持一层命名空间)
 
 ```js
