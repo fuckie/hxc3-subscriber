@@ -9,7 +9,26 @@
  * EventTarget.on('getTodayData.cdef', function(data){ ...  }); 
  * EventTarget.trigger('getTodayData', data);
  */
-define(function(){
+
+// cmd amd模块兼容
+;(function (name, definition) {
+    // 检测上下文环境是否为AMD或CMD
+    var hasDefine = typeof define === 'function',
+        // 检查上下文环境是否为Node
+        hasExports = typeof module !== 'undefined' && module.exports;
+    if (hasDefine) {
+        // AMD环境或CMD环境
+        define(definition);
+    } else if (hasExports) {
+        // 定义为普通Node模块
+        module.exports = definition();
+    } else {
+        // 将模块的执行结果挂在window变量中，在浏览器中this指向window对象
+        this[name] = definition();
+    }
+})('EventTarget', function () {
+    
+
     var EventTarget = function(){
         // 最多回调函数个数
         this.maxCallbackNum = 20;
@@ -144,7 +163,7 @@ define(function(){
         }else{
             this.eventTopics[topic].splice(pos, 1);
         }
-        if (this.eventTopics[topic].length < 1) {
+        if (!this.eventTopics[topic] || this.eventTopics[topic].length < 1) {
             delete this.eventTopics[topic];
         }
 

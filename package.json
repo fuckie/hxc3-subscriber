@@ -1,0 +1,22 @@
+{
+  "name": "hxc3-subscriber",
+  "version": "0.0.9",
+  "description": "subscriber support ie7+",
+  "main": "subscriber.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mudenglong/hxc3-subscriber.git"
+  },
+  "keywords": [
+    "hxc3"
+  ],
+  "author": "hhroot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mudenglong/hxc3-subscriber/issues"
+  },
+  "homepage": "https://github.com/mudenglong/hxc3-subscriber#readme"
+}
