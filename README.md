@@ -1,6 +1,6 @@
 ## install
     
-    npm install hxc3-subscriber
+[![hxc3-subscriber](https://nodei.co/npm/hxc3-subscriber.png)](https://npmjs.org/package/hxc3-subscriber)
     
 
 ## subscribe and publish
