@@ -1,3 +1,8 @@
+## install
+    
+    npm install hxc3-subscriber
+    
+
 ## subscribe and publish
 
     var a = new EventTarge();

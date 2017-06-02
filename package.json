@@ -1,6 +1,6 @@
 {
   "name": "hxc3-subscriber",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "subscriber support ie7+",
   "main": "subscriber.js",
   "scripts": {
