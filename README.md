@@ -1,5 +1,6 @@
-# hxc3-subscribe
+# hxc3-subscriber
 ---
+
 
 ## Install
     
