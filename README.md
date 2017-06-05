@@ -9,9 +9,7 @@
 [![gemnasium deps][gemnasium-image]][gemnasium-url]
 [![node version][node-image]][node-url]
 [![npm download][download-image]][download-url]
-[![Sauce Test Status](https://saucelabs.com/buildstatus/hxc3-subscriber)](https://saucelabs.com/u/hxc3-subscriber)
 
-[![Sauce Test Status](https://saucelabs.com/browser-matrix/hxc3-subscriber.svg)](https://saucelabs.com/u/hxc3-subscriber)
 
 [npm-image]: http://img.shields.io/npm/v/hxc3-subscriber.svg?style=flat-square
 [npm-url]: http://npmjs.org/package/hxc3-subscriber
