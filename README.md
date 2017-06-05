@@ -35,7 +35,11 @@
 ### subscribe and publish
 
 ```js
+// 可以直接引用 dist/subscriber.js 获得 EventTarge
+// or 使用 import EventTarge from "hxc3-subscriber";
+
 var a = new EventTarge();
+
 
 // 发布与订阅
 // subscribe
