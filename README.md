@@ -58,7 +58,7 @@ a.on('getTodayData.cdef', function(data){ ...  });
 
 a.trigger('getTodayData', data);
 
-// 不支持多层命名空间 not suporrt 
+// 不支持多层命名空间 not support 
 a.on('getTodayData.cdef.child', function(data){ ...  }); 
 ```
 
